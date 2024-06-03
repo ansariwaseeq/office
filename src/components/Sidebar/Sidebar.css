@@ -1,0 +1,103 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #f8f9fa;
+  color: #111;
+  transition: transform 0.3s ease;
+  overflow-x: hidden;
+  padding: 48px 16px;
+  gap: 48px;
+}
+
+.Menu-items {
+  width: 205px;
+  height: 262px;
+  gap: 48px;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li {
+  padding: 16px;
+  text-align: center;
+}
+
+.nav li a {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+  color: #111; /* Text color */
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 16px;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.nav li a:hover {
+  background-color: #3A42FF;
+  color: #fff;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: right 0.3s ease;
+}
+
+.sidebar.closed .toggle-button {
+  right: -50px;
+}
+
+/* Added styles for the specific links */
+.nav li.labels a,
+.nav li.label a,
+.nav li.users a {
+  background-color: #fff; /* White background */
+  color: #111; /* Text color */
+  border-radius: 6px; /* Rounded corners */
+  padding: 8px 12px;
+  gap: 12px; /* Padding for the links */
+  margin: -10px;
+}
+
+.nav li.labels a:hover,
+.nav li.label a:hover,
+.nav li.users a:hover {
+  background-color: #eeeeee; /* Light gray background on hover */
+}
+
+h4 {
+  padding: 0 0 0 32px;
+  color: black;
+  margin: 19px -6px 12px 2px;
+}
+
+.label-list {
+  padding: 0;
+  margin: -13px 0 0 12px;
+}
+
+/* Add this to ensure the main content is not behind the sidebar */
+.main-content {
+  margin-left: 320px;
+  padding: 20px;
+}

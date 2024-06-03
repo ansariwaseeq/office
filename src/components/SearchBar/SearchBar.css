@@ -1,0 +1,23 @@
+.search-bar-container {
+    position: relative;
+    width: 300px;
+    height: 10px; /* Adjust the width as needed */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px 12px 8px 30px; /* Adjust padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(15%) translateX(-25%);
+    color: #ccc;
+    pointer-events: none; /* Ensure the icon doesn't block input field interaction */
+  }
+  

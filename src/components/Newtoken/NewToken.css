@@ -1,0 +1,50 @@
+
+.main-content .token{
+    width: 282px;
+    height: 40px;
+    padding-left: 43px;
+    padding-top: 60px;
+    gap: 32px
+
+}
+.step-text{
+color: #696969;
+padding-left: 43px ;
+padding-top: 0px;
+margin: -22px 0 0 0;   
+font-size: 16px;
+
+}
+.NewToken {
+    position: relative;
+  }
+  
+.NewToken-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-15%);
+    z-index: -1; /* Place the icon behind other content */
+}
+.second-part{
+    padding: 34px 0 0 0;
+    
+}
+.second-part .content{
+    font-weight: 500;
+    width: 67px;
+    Height: 32px;
+    font-size: 24px;
+
+
+}
+.third-part{
+    font-size: 16px;
+    font-weight: 500;
+}
+.done-icon{
+    border: 1.5px;
+    width: 10px;
+    height: 6.5px;
+    transform: translateY(20%);
+}
