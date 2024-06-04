@@ -1,50 +1,110 @@
-
-.main-content .token{
+.main1-content .token {
     width: 282px;
     height: 40px;
     padding-left: 43px;
     padding-top: 60px;
-    gap: 32px
-
+    gap: 32px;
 }
-.step-text{
-color: #696969;
-padding-left: 43px ;
-padding-top: 0px;
-margin: -22px 0 0 0;   
-font-size: 16px;
 
+.step-text {
+    color: #696969;
+    padding-left: 43px;
+    padding-top: 0px;
+    margin: -22px 0 0 0;
+    font-size: 16px;
 }
+
 .NewToken {
     position: relative;
-  }
-  
+}
+
 .NewToken-icon {
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-15%);
-    z-index: -1; /* Place the icon behind other content */
+    transform: translateY(-126%);
+    z-index: -1;
 }
-.second-part{
+
+.second-part {
     padding: 34px 0 0 0;
-    
 }
-.second-part .content{
+
+.second-part .content {
     font-weight: 500;
     width: 67px;
-    Height: 32px;
+    height: 32px;
     font-size: 24px;
+    padding-left: 13px;
+}
+
+.third-part {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 29px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    border-color: black;
+    border-radius: 1px;
+    border-width: 5px;
+}
+
+.option input[type='radio'] {
+    margin-left: 130px;
+    padding-top: 0
+}
 
 
+.option label {
+    display: flex;
+    align-items: center;
 }
-.third-part{
-    font-size: 16px;
-    font-weight: 500;
+
+.includes {
+    margin-left: 1px;
+    margin-top: 5px;
 }
-.done-icon{
+
+.includes-dots {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 16px;
+
+}
+
+.includes-dots div {
+    width: 8px;
+    height: 8px;
+    background-color: #D9D9D9;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0 0 0 0;
+  
+}
+
+.done-icon {
     border: 1.5px;
     width: 10px;
     height: 6.5px;
-    transform: translateY(20%);
+    transform: translateY(05%); 
+
+}
+.includes-parent{
+    display: flex;
+    align-items: center;
+    
+}
+.options-parent{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
 }

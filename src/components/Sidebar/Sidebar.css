@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 250px;
+  width: 180px;
   background-color: #f8f9fa;
   color: #111;
   transition: transform 0.3s ease;
@@ -98,6 +98,6 @@ h4 {
 
 /* Add this to ensure the main content is not behind the sidebar */
 .main-content {
-  margin-left: 320px;
-  padding: 20px;
+  margin-left: 204px;
+  padding: 23px;
 }
